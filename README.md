@@ -22,6 +22,9 @@ Like if you have: <br />
  command will be: <br />
  `$ gem install ruby-opencv -- --with-opencv-dir="/usr/local/Cellar/opencv/2.4.12_2"` <br />
  
+Lib with methods avalable as a gem 
+ `$ gem install cal-ios-image-proc`
+ 
 (**Optional**)For Ruby I suggest to use **rbenv**. For installation follow steps described under:
 https://github.com/rbenv/rbenv#homebrew-on-mac-os-x
 
