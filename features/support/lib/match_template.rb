@@ -91,7 +91,7 @@ end
 # @param {Integer} x
 # @param {Integer} y
 def touch_by_x_y(x,y)
-  uia_handle_command(:tapOffset, {:x => x, :y => y})
+  device_agent.touch_coordinate({:x => x, :y => y})
 end
 
 # @param {String} image
